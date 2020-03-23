@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MiniProject</string>
+
+    <string name="HEADINNGNAME">WELCOME TO OUR MEDICAL HELP CENTER</string>
+    <string name="HEADINNGNAME1">HELP FOR COVID-19</string>
+
+    <string name="FASTNAME">Fast name:</string>
+    <string name="LASTNAME">Last name:</string>
+
+    <string name="EditTest1">Enter Fast name</string>
+    <string name="EditTest2">Enter Last name</string>
+    <string name="EditTest3">Email Address</string>
+    <string name="EditTest4">Phone Number</string>
+    <string name="EditTest5">Password</string>
+    <string name="EditTest6">Blood</string>
+
+    <string name="PASSWORD">PASSWORD:</string>
+    <string name="Gender">GENDER:</string>
+    <string name="BLOOD">BLOOD:</string>
+
+
+    <string name="EmailAddress">Email Address:</string>
+
+    <string name="PhoneNumber">Phone Number:</string>
+
+    <string name="Button1">Next</string>
+    <string name="Button2">Exit</string>
+
+    <string name="AllertText">Alert Tile</string>
+    <string name="AllertTextMessage">Do You Want Exit?</string>
+
+    <string name="Signin">Sign in</string>
+    <string name="Regestration">Registration</string>
+    <string name="title_activity_maps1">Map</string>
+    <string name="Address">www.iedcr.gov.bd</string>
+
+
+</resources>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:scrollbarSize="20sp"
+    android:background="@drawable/boy"
+
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boy"
+    tools:context=".Regester">
+
+    <TextView
+        android:id="@+id/HEADING"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/Regestration"
+
+        android:textAllCaps="true"
+        android:textColor="#141101"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/FASTNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+
+        android:text="@string/FASTNAME"
+        android:textAllCaps="true"
+        android:textColor="#0F0202"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditTest1"
+
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:hint="@string/EditTest1"
+
+
+        />
+
+    <TextView
+        android:id="@+id/LASTNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+
+        android:text="@string/LASTNAME"
+        android:textAllCaps="true"
+        android:textColor="#0F0202"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/EditTest2"
+
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="29dp"
+        android:textColor="#000000"
+        android:hint="@string/EditTest2"
+
+
+        />
+    <TextView
+        android:id="@+id/Emailaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+
+        android:text="@string/EmailAddress"
+        android:textAllCaps="true"
+        android:textColor="#0F0202"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/EditTest3"
+
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="29dp"
+        android:textColor="#000000"
+        android:hint="@string/EditTest3"
+
+
+        />
+
+    <TextView
+        android:id="@+id/PhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+
+        android:text="@string/PhoneNumber"
+        android:textAllCaps="true"
+        android:textColor="#0F0202"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/EditTest4"
+
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="29dp"
+        android:textColor="#000000"
+        android:hint="@string/EditTest4"
+
+
+        />
+    <TextView
+        android:id="@+id/PASSWORD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"
+
+        android:text="@string/PASSWORD"
+        android:textAllCaps="true"
+        android:textColor="#0F0202"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/EditTest5"
+
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="600dp"
+
+        android:text="@string/Gender"
+        android:textAllCaps="true"
+        android:textColor="#0F0202"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+
+
+
+        <RadioButton
+            android:id="@+id/Radio1"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@+id/Gender"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="120dp"
+            android:layout_alignBaseline="@+id/Gender"
+            android:layout_weight="0.13"
+            android:checked="false"
+            android:text="Female"
+            android:textSize="25dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/Radio1"
+        android:layout_alignBaseline="@+id/Gender"
+        android:layout_marginLeft="188dp"
+        android:checked="false"
+        android:orientation="vertical"
+        android:text="Male"
+        android:textSize="25dp"
+
+
+        />
+    <TextView
+        android:id="@+id/Blood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="690dp"
+
+        android:text="@string/BLOOD"
+        android:textAllCaps="true"
+        android:textColor="#0F0202"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/EditTest6"
+        android:layout_alignBaseline="@id/Blood"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:hint="@string/EditTest6"
+
+
+        />
+    <Button
+        android:id="@+id/BUTTON1"
+        android:background="#14DAB9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="800dp"
+        android:text="SUBMIT"
+        android:textStyle="bold"
+        android:textSize="27dp"
+
+        />
+
+</RelativeLayout>
+</ScrollView>

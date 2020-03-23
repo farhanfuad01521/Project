@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/corona"
+    tools:context=".Emergency">
+
+
+    <TextView
+        android:id="@+id/HEADING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_x="80dp"
+        android:layout_y="84dp"
+        android:text="@string/HEADINNGNAME1"
+        android:textAllCaps="true"
+        android:textColor="#FFF087"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/BUTTON1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_x="0dp"
+        android:layout_y="156dp"
+        android:background="#C5C199"
+        android:padding="0dp"
+        android:text="Institute of Epidemiology Disease                           Control And Research IEDCR"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/BUTTON2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="630dp"
+        android:layout_x="0dp"
+        android:layout_y="234dp"
+        android:background="#C5C199"
+        android:padding="0dp"
+        android:text="Kuwait Bangladesh Friendship Govt. Hospital"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
